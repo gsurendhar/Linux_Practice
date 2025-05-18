@@ -39,12 +39,20 @@ to list the content in that directory by **ls**
 ls <options>
 ```
 major options are
+
 --> ```ls -l```     ----> to long listing format.
+
 --> ```ls -a```     ----> to hidden files and folders.
+
 --> ```ls -la```    ----> to long listing with hidden files.
+
 --> ```ls -lr```    ----> to long listing with reverse alphabetic order.
+
 --> ```ls -lt```    ----> to long listing with latest files on top.
+
 --> ```ls -lh```    ----> to long listing with human readable format.
+
 --> ```ls -ltr```   ----> to long listing with latest at bottom.
+
 --> ```ls -lrth```  ----> to long listing with latest at bottom with human readable format.
 
