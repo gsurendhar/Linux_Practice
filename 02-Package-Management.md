@@ -48,6 +48,18 @@ All available packages are there in directory is
 /etc/yum.repos.d
 ```
 
+we can also enable and disable particular version of package available in repo
+```
+dnf module disable nginx -y
+```
+```
+dnf module enable nginx:1.24 -y
+```
+then
+```
+dnf install nginx -y
+```
+
 **If there is any package is not available in a repo, we need to add the repo of that package and that repo file extension should be `.repo`.**
 ex:- `vim /etc/yum.repos.d/mongodb-org-8.0.repo`
 
@@ -67,14 +79,3 @@ then install package by `dnf` command
 dnf install mongodb-org -y
 ```
 
-we can also enable and disable particular version of package available in repo
-```
-dnf module disable nginx -y
-```
-```
-dnf module enable nginx:1.24 -y
-```
-then
-```
-dnf install nginx -y
-```
