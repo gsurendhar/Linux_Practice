@@ -22,7 +22,8 @@ apt-get install <package-name>
 ```
 dnf install <package-name> <options>
 ```
--y ---> is used to install directly instead of asking do you want install or not
+`-y` ---> is used to install directly instead of asking do you want install or not
+
 ex:- `dnf install python -y`
 
 To list out the installed packages by
@@ -36,18 +37,22 @@ dnf remove <package-name>
 ex:- `dnf remove python -y`
 
 To list out available packages in repo
-```
 
 ```
 dnf list available
 ```
 
-All available packages are there in repo is ```/etc/yum.repos.d```
+All available packages are there in directory is 
+
+```
+/etc/yum.repos.d
+```
 
 **If there is any package is not available in a repo, we need to add the repo of that package and that repo file extension should be `.repo`.**
 ex:- `vim /etc/yum.repos.d/mongodb-org-8.0.repo`
 
 then add the installation configuration file from official web-site
+
 ```
 [mongodb-org-8.0]
 name=MongoDB Repository
