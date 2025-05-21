@@ -3,14 +3,14 @@ In linux there are many distributions in that major are RHEL(AlmaLinux, Rocky Li
 
 In this RHEL and Debian some Package Management commands are different.
 
-In RHEL `yum` or `dnf` command is used.
+In RHEL `yum` or `dnf` command is used.(`dnf` is the updated version of `yum`)
 ```
 yum install <package-name>
 ```
 ```
 dnf install <package-name>
 ```
-But in Debian `apt` or `apt-get` is used.
+But in Debian `apt` or `apt-get` is used.(`apt` is the updated version of`apt-get`)
 
 ```
 apt install <package-name>
@@ -18,7 +18,7 @@ apt install <package-name>
 ```
 apt-get install <package-name>
 ```
-**RHEL**
+**IN RHEL**
 ```
 dnf install <package-name> <options>
 ```
