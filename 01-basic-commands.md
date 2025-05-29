@@ -40,19 +40,19 @@ ls <options>
 ```
 major options are
 
---> ```ls -l```     ----> to long listing format.
+--> ```ls -l```         ----> to long listing format.
 
---> ```ls -a```     ----> to hidden files and folders.
+--> ```ls -a```         ----> to hidden files and folders.
 
---> ```ls -la```    ----> to long listing with hidden files.
+--> ```ls -la```        ----> to long listing with hidden files.
 
---> ```ls -lr```    ----> to long listing with reverse alphabetic order.
+--> ```ls -lr```        ----> to long listing with reverse alphabetic order.
 
---> ```ls -lt```    ----> to long listing with latest files on top.
+--> ```ls -lt```        ----> to long listing with latest files on top.
 
---> ```ls -lh```    ----> to long listing with human readable format.
+--> ```ls -lh```        ----> to long listing with human readable format.
 
---> ```ls -ltr```   ----> to long listing with latest at bottom.
+--> ```ls -ltr```       ----> to long listing with latest at bottom.
 
---> ```ls -lrth```  ----> to long listing with latest at bottom with human readable format.
+--> ```ls -lrth```      ----> to long listing with latest at bottom with human readable format.
 
